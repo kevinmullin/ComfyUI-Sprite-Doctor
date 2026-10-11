@@ -1,0 +1,12 @@
+[project]
+name = "comfyui-spritesheet-exporter"
+version = "1.1.0"
+description = "Convert any ComfyUI IMAGE batch to RGBA sprite sheets and JSON atlases"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Kevin Mullin"}]
+keywords = ["comfyui", "sprite-sheet", "sprites", "animation", "image-to-video", "game-dev"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
